@@ -8,14 +8,6 @@ class cliente:
         self.telefone = telefone
         self.endereco = endereco.title()
 
-    def __str__(self):
-        return (f"nome: {self.nome}\n")
-        f"idade: {self.idade}\n"  
-        f"sexo: {self.sexo}\n"
-        f"E-mail: {self.email}\n"
-        f"telefone": {self.telefone}
-        f"endereco: {self.endereco}"
-
     def cadastrar_cliente (nome,idade,sexo,email,telefone,endereco):
         cliente = cliente (nome,idade,sexo,email,telefone,endereco)
 
